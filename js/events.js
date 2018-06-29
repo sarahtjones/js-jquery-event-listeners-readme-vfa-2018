@@ -20,8 +20,6 @@ function pressIt() {
   })
 }
 
-//+ Define a function `submitIt` that does not accept a parameter.
-//The function should bind a `submit` event to the form that alerts `"Your form is going to be submitted now."`.
 function submitIt() {
   $('form').on('submit', function(){
     window.alert('Your form is going to be submitted now.');
