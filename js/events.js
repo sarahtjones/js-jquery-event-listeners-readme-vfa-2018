@@ -24,12 +24,15 @@ function pressIt() {
 //The function should bind a `submit` event to the form that alerts `"Your form is going to be submitted now."`.
 function submitIt() {
   $('input').on('submit', function(){
-    window.alert('Youkr form is going to be submitted now.');
+    window.alert('Your form is going to be submitted now.');
   })
 }
 
 $(document).ready(function(){
-
-// call functions here
+  
+  getIt();
+  frameIt();
+  pressIt();
+  submitIt();
 
 });
